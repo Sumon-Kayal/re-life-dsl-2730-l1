@@ -98,7 +98,7 @@ Phones, computers, and other devices ──► internet
 1. Know the D-Link’s Wi-Fi password, its login credentials, and its management IP (`192.168.1.1` in this example).
 2. Keep the main router’s DHCP server **enabled**.
 3. Check that the main router’s LAN subnet differs from the D-Link’s `192.168.1.x` (see the note in the [Overview](#overview)).
-4. Connect the routers **LAN-to-LAN**: a LAN port on the main router to a LAN port on the D-Link. Leave the DSL port unused.
+4. Keep the LAN-to-LAN cable disconnected while you configure and save the D-Link. Connect it only after DHCP is disabled and saved. Leave the DSL port unused.
 5. Do **not** use `reset`, undocumented commands, or flash commands.
 6. If the router is already working, record its current settings before changing anything.
 
