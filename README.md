@@ -1,4 +1,4 @@
-# # Repurpose a D-Link DSL-2730U as a Wi-Fi Access Point
+# Repurpose a D-Link DSL-2730U as a Wi-Fi Access Point
 
 [![License: CC BY 4.0][cc-by-shield]][cc-by]
 
