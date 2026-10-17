@@ -98,18 +98,19 @@ Phones, computers, and other devices ──► internet
 1. Know the D-Link’s Wi-Fi password, its login credentials, and its management IP (`192.168.1.1` in this example).
 2. Keep the main router’s DHCP server **enabled**.
 3. Check that the main router’s LAN subnet differs from the D-Link’s `192.168.1.x` (see the note in the [Overview](#overview)).
-4. Connect the routers **LAN-to-LAN**: a LAN port on the main router to a LAN port on the D-Link. Leave the DSL port unused.
+4. Keep the LAN-to-LAN cable disconnected while you configure and save the D-Link. Connect it only after DHCP is disabled and saved. Leave the DSL port unused.
 5. Do **not** use `reset`, undocumented commands, or flash commands.
 6. If the router is already working, record its current settings before changing anything.
 
 ## Quick start
 
-1. Cable the routers LAN-to-LAN and keep the main router’s DHCP server enabled ([Before you start](#before-you-start)).
+1. Keep the LAN-to-LAN cable disconnected while configuring and saving the D-Link, and keep the main router’s DHCP server enabled ([Before you start](#before-you-start)).
 2. Connect to the D-Link at `192.168.1.1` over Telnet ([Step 1](#step-1-install-a-telnet-client), [Step 2](#step-2-open-the-router-cli)).
 3. Set DHCP mode to `none` ([Step 3](#step-3-disable-dhcp)).
 4. Verify with `show dhcp` and `show status` ([Step 4](#step-4-verify-before-saving)).
 5. Run `save` ([Step 5](#step-5-save-the-change)).
-6. Reconnect your phone and test internet access ([Step 6](#step-6-reconnect-and-test)).
+6. Connect the routers LAN-to-LAN after saving.
+7. Reconnect your phone and test internet access ([Step 6](#step-6-reconnect-and-test)).
 
 Already connected over Telnet and signed in? The router-side commands are:
 
