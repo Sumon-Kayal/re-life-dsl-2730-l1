@@ -104,12 +104,13 @@ Phones, computers, and other devices ──► internet
 
 ## Quick start
 
-1. Cable the routers LAN-to-LAN and keep the main router’s DHCP server enabled ([Before you start](#before-you-start)).
+1. Keep the LAN-to-LAN cable disconnected while configuring and saving the D-Link, and keep the main router’s DHCP server enabled ([Before you start](#before-you-start)).
 2. Connect to the D-Link at `192.168.1.1` over Telnet ([Step 1](#step-1-install-a-telnet-client), [Step 2](#step-2-open-the-router-cli)).
 3. Set DHCP mode to `none` ([Step 3](#step-3-disable-dhcp)).
 4. Verify with `show dhcp` and `show status` ([Step 4](#step-4-verify-before-saving)).
 5. Run `save` ([Step 5](#step-5-save-the-change)).
-6. Reconnect your phone and test internet access ([Step 6](#step-6-reconnect-and-test)).
+6. Connect the routers LAN-to-LAN after saving.
+7. Reconnect your phone and test internet access ([Step 6](#step-6-reconnect-and-test)).
 
 Already connected over Telnet and signed in? The router-side commands are:
 
